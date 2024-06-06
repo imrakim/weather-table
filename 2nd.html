@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Information</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #799ef0;
+            color: white;
+        }
+        .highlight {
+            background-color: #f2f2f2;
+        }
+        .green-color{
+            color: rgb(3, 187, 3);
+            font-weight: bold;
+        }
+        .red-color{
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <h1 style="text-align: center;">MISC WEATHER INFO 06 JUN 24</h1>
+            <tr>
+                <th rowspan="2" colspan="2">Wx Elements</th>
+
+            </tr>
+            <tr>
+                <th>BAF BBD</th>
+                <th>BAF BSR</th>
+                <th>BAF MTR</th>
+                <th>BAF ZHR</th>
+                <th>BAF CXB</th>
+                <th>PKP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="highlight red-color">Max Temp (°C)</td>
+                <td rowspan="4" style="transform:rotate(-90deg);text-align: center; padding:0px; font-weight: bold;">Last 24hours</td>
+                <td class="red-color highlight">34.4</td>
+                <td class="red-color highlight">35.8</td>
+                <td class="red-color highlight">37.6</td>
+                <td class="red-color highlight">34.4</td>
+                <td class="red-color highlight">34.3</td>
+                <td class="red-color highlight">36.0</td>
+            </tr>
+            <tr>
+                <td class=" red-color" style="font-weight: bold;">Min Temp (°C)</td>
+                <td class="red-color">27.0</td>
+                <td class="red-color">27.8</td>
+                <td class="red-color">29.2</td>
+                <td class="red-color">28.2</td>
+                <td class="red-color">27.0</td>
+                <td class="red-color">25.2</td>
+            </tr>
+            <tr>
+                <td class="highlight green-color" >Rain Fall (mm)</td>
+                <td class="green-color highlight">015</td>
+                <td class="green-color highlight">001</td>
+                <td class="green-color highlight">NIL</td>
+                <td class="green-color highlight">NIL</td>
+                <td class="green-color highlight">002</td>
+                <td class="green-color highlight">043</td>
+            </tr>
+            <tr>
+                <td class=" green-color">Max Wind (Kts)</td>
+                <td style="font-weight: bold;">180/26</td>
+                <td style="font-weight: bold;">300/20</td>
+                <td style="font-weight: bold;">190/07</td>
+                <td style="font-weight: bold;">140/12</td>
+                <td style="font-weight: bold;">160/10</td>
+                <td style="font-weight: bold;">-</td>
+            </tr>
+            <tr>
+                <td class="" colspan="2" style="font-weight: bold;">Sun Rise (F)</td>
+                <td style="font-weight: bold;">0510</td>
+                <td style="font-weight: bold;">0510</td>
+                <td style="font-weight: bold;">0516</td>
+                <td style="font-weight: bold;">0508</td>
+                <td style="font-weight: bold;">0509</td>
+                <td style="font-weight: bold;">0511</td>
+            </tr>
+            <tr>
+                <td class="highlight" colspan="2" style="font-weight: bold;">Sun Set (F)</td>
+                <td class="highlight" style="font-weight: bold;">1844</td>
+                <td class="highlight" style="font-weight: bold;">1844</td>
+                <td class="highlight" style="font-weight: bold;">1848</td>
+                <td class="highlight" style="font-weight: bold;">1835</td>
+                <td class="highlight" style="font-weight: bold;">1833</td>
+                <td class="highlight" style="font-weight: bold;">1847</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="font-weight: bold;background-color:#fcf046 ;">Moon Rise/Set (F)</td>
+                <td colspan="2" style="font-weight: bold;background-color:#fcf046 ;">0434/1850</td>
+                <td colspan="4" style="font-weight: bold; background-color: #f1faa1;">Moon Phase: NEW MOON</td>
+            </tr>
+        </tbody>
+    </table>
+    <table style="margin-top: 10px;">
+        <tr>
+            <td class="red-color" style=" background-color: #799ef0;">Country Max Temp</td>
+            <td class="red-color" style=" background-color: #799ef0;">37.6</td>
+            <td class="red-color" style=" background-color: #799ef0;">JASHORE</td>
+            <td rowspan="2" class="red-color" style=" background-color: #799ef0;">SOURCE:BMD</td>
+        </tr>
+        <tr>
+            <td class="red-color" style=" background-color: #799ef0;">Country Min Temp</td>
+            <td class="red-color" style=" background-color: #799ef0;">23.0</td>
+            <td class="red-color" style=" background-color: #799ef0;">TARASH</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
